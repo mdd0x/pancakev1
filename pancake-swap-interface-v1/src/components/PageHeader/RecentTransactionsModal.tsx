@@ -45,7 +45,7 @@ const RecentTransactionsModal = ({ onDismiss = defaultOnDismiss, translateString
       {!account && (
         <Flex justifyContent="center" flexDirection="column" alignItems="center">
           <Text mb="8px" bold>
-            Please connect your wallet to view your recent transactions
+            Wallet not Found.
           </Text>
           <Button variant="tertiary" scale="sm" onClick={onDismiss}>
             Close

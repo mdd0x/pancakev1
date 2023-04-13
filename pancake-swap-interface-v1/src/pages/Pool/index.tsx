@@ -112,9 +112,6 @@ export default function Pool() {
                     {TranslateString(108, 'Import it.')}
                   </StyledInternalLink>
                 </Text>
-                <Text fontSize="14px" style={{ padding: '.5rem 0 .5rem 0' }}>
-                  {TranslateString(1172, 'Or, if you staked your LP tokens in a farm, unstake them to see them here.')}
-                </Text>
               </div>
             </AutoColumn>
           </CardBody>

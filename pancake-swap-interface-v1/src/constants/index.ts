@@ -1,6 +1,6 @@
 import { ChainId, JSBI, Percent, Token, WETH } from '@pancakeswap-libs/sdk'
 
-export const ROUTER_ADDRESS = '0xCc7aDc94F3D80127849D2b41b6439b7CF1eB4Ae0'
+export const ROUTER_ADDRESS = '0x14d0817bf2f80378209f0907E7dd4AA7c6c69574'
 
 // a list of tokens by chain
 type ChainTokenList = {
@@ -8,7 +8,7 @@ type ChainTokenList = {
 }
 
 export const CAKE = new Token(ChainId.BSCTESTNET, '0xB8F5B50ed77596b5E638359d828000747bb3dd89', 18, 'CAKE', 'PancakeSwap Token')
-export const WBNB = new Token(ChainId.BSCTESTNET, '0x0dE8FCAE8421fc79B29adE9ffF97854a424Cad09', 18, 'WBNB', 'Wrapped BNB')
+export const WBNB = new Token(ChainId.BSCTESTNET, '0x62364C0c16690261ee0D1a71b3376278DD063166', 18, 'WALT', 'Wrapped WALT')
 export const DAI = new Token(ChainId.BSCTESTNET, '0x3Cf204795c4995cCf9C1a0B3191F00c01B03C56C', 18, 'DAI', 'Dai Stablecoin')
 export const BUSD = new Token(ChainId.BSCTESTNET, '0xE0dFffc2E01A7f051069649aD4eb3F518430B6a4', 18, 'BUSD', 'Binance USD')
 export const USDT = new Token(ChainId.BSCTESTNET, '0x7afd064DaE94d73ee37d19ff2D264f5A2903bBB0', 18, 'USDT', 'Tether USD')

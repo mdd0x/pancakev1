@@ -302,8 +302,8 @@ const Swap = () => {
             onDismiss={handleConfirmDismiss}
           />
           <PageHeader
-            title={TranslateString(8, 'Exchange')}
-            description={TranslateString(1192, 'Trade tokens in an instant')}
+            title={TranslateString(8, 'Alpha Exchange')}
+            description={TranslateString(1192, 'Easiest Way to Trade!')}
           />
           <CardBody>
             <AutoColumn gap="md">
@@ -331,7 +331,7 @@ const Swap = () => {
                         setApprovalSubmitted(false) // reset 2 step UI for approvals
                         onSwitchTokens()
                       }}
-                      style={{ borderRadius: '50%' }}
+                      style={{ borderRadius: '10%' }}
                       scale="sm"
                     >
                       <ArrowDownIcon color="primary" width="24px" />
